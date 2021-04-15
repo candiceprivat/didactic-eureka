@@ -15,7 +15,7 @@ let trainButton;
 
 function modelReady() {
   console.log('Model is ready!!!');
-  classifier.load(['didactic-eureka/model.weights.bin', 'model.json'], customModelReady);
+  classifier.load(['model.weights.bin', 'model.json'], customModelReady);
 }
 
 function customModelReady() {
