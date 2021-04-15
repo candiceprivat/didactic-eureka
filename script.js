@@ -15,7 +15,7 @@ let trainButton;
 
 function modelReady() {
   console.log('Model is ready!!!');
-  classifier.load('model.json', customModelReady);
+  classifier.load(['/model.json', '/model.weights.bin'], customModelReady);
 }
 
 function customModelReady() {
