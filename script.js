@@ -15,7 +15,7 @@ let trainButton;
 
 function modelReady() {
   console.log('Model is ready!!!');
-  classifier.load(['model.weights.bin', 'model.json'], customModelReady);
+  classifier.load(['https://tristandeborde.github.io/didactic-eureka/model.weights.bin', 'https://tristandeborde.github.io/didactic-eureka/model.json'], customModelReady);
 }
 
 function customModelReady() {
