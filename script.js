@@ -15,7 +15,7 @@ let trainButton;
 
 function modelReady() {
   console.log('Model is ready!!!');
-  classifier.load('http://localhost:8000/model.json', customModelReady);
+  classifier.load('model.json', customModelReady);
 }
 
 function customModelReady() {
